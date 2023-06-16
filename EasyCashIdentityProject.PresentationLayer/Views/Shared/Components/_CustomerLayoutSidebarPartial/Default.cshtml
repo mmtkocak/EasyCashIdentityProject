@@ -50,6 +50,15 @@
                         </ul>
                     </li>
                     <li>
+                        <a><i class="fa fa-car"></i> Para Transferleri <span class="fa fa-chevron-down"></span></a>
+                        <ul class="nav child_menu">
+                            <li><a asp-controller="SendMoney" asp-action="Index" asp-route-mycurrency="TL">TL Transfer</a></li>
+                            <li><a asp-controller="SendMoney" asp-action="Index" asp-route-mycurrency="USD">Dolar Transfer</a></li>
+                            <li><a asp-controller="SendMoney" asp-action="Index" asp-route-mycurrency="EUR">Euro Transfer</a></li>
+                            <li><a asp-controller="SendMoney" asp-action="Index" asp-route-mycurrency="Other">Diğer Transferler</a></li>
+                        </ul>
+                    </li>
+                    <li>
                         <a><i class="fa fa-table"></i> Ödemeler <span class="fa fa-chevron-down"></span></a>
                         <ul class="nav child_menu">
                             <li><a href="tables.html">Fatura Ödeme</a></li>
@@ -86,7 +95,7 @@
                         <ul class="nav child_menu">
                             <li><a href="e_commerce.html">Kredi Kartlarım</a></li>
                             <li><a href="projects.html">Banka Kartlarım</a></li>
-                            <li><a href="project_detail.html">Sanal Kartlarım</a></li>                           
+                            <li><a href="project_detail.html">Sanal Kartlarım</a></li>
                         </ul>
                     </li>
                     <li>
@@ -97,7 +106,7 @@
                             <li><a href="page_500.html">İletişim Bilgileri</a></li>
                         </ul>
                     </li>
-                  
+
                     <li><a href="javascript:void(0)"><i class="fa fa-laptop"></i> Çıkış Yap</a></li>
                 </ul>
             </div>
